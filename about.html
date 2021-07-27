@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> First Trends</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png" width="75" height="75"></a>
+            <div class="nav-links1" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+
+                     <li ><a href="index.html">Home</a> </li>
+                     <li ><a href="twitter.html">Twitter trends</a> </li>
+                     <li ><a href="Youtube.html">Youtube trends</a> </li>
+                     <li ><a href="crypto.html">Cryptocurrency trends</a> </li>
+                     <li ><a href="feedbk.html">Feedback</a> </li>
+                     <li ><a href="about.html">ABOUT</a> </li>
+
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>About</h1>
+    </section>
+
+    <section class="footer">
+        <br><br><br>
+        <p>User friendly website for social media trend enthusiasts. Contains insightful data on trends in Twitter, YouTube and Cryptocurrency prices at any given point of time.</p>
+        <div class="icons">
+
+            <a href="https://www.facebook.com/"> <i class="fa fa-facebook"></i> </a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </div>
+
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
