@@ -2,7 +2,7 @@
 filenames = ['base.html', 'index10.html']
 
 # Open file3 in write mode
-with open('/Users/hrushika/PycharmProjects/WS/twitter.html', 'w') as outfile:
+with open('../twitter.html', 'w') as outfile:
     # Iterate through list
     for names in filenames:
         # Open each file in read mode

@@ -2,7 +2,6 @@
 from bs4 import BeautifulSoup as bs4
 import requests
 import pandas as pd
-import eel
 # eel.init("web")
 #
 # @eel.expose
